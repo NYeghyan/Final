@@ -1,0 +1,95 @@
+.img {
+  width: 200px;
+  height: 200px;
+}
+
+.events {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1366px;
+}
+
+.home {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-grow: 1;
+
+}
+
+.home button {
+  font-family: "MagdaClean";
+  font-size: 16px;
+}
+
+
+.mt100 {
+  margin-top: 100px;
+  align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.rocket {
+  text-decoration: none;
+}
+
+.teest {
+  text-decoration: none;
+}
+
+.animateRocket {
+  animation-duration: 1s;
+  animation-name: animate-rocket;
+}
+
+@keyframes animate-rocket {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.divayder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divayder::before, .divayder::after {
+  content: "";
+  display: block;
+  height: 1px;
+  min-width: 10vw;
+}
+.divayder::before {
+  background: linear-gradient(to right, rgb(40 32 32 / 0%), #706b6b);
+  margin-right: 1vh;
+}
+.divayder::after {
+  background: linear-gradient(to left, rgb(40 32 32 / 0%), #706b6b);
+  margin-left: 1vh;
+}
+

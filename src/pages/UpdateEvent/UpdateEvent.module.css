@@ -1,0 +1,24 @@
+button {
+    margin: 15px;
+}
+
+
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+.updateEvent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.with20 {
+    width: 20%;
+}

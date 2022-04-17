@@ -1,0 +1,137 @@
+
+/* Top Menu Start */
+
+/* .nav_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+  } */
+
+.color {
+  transition: 2s ease-in-out;
+  background-color: black !important;
+}  
+
+.black {
+  background-color: 100f0f0a !important;
+}
+.logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo  > Button  {
+    background: url(../../../public/logo192.png);
+    object-fit: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 58px;
+    display: block;
+    margin-left: 10px;
+}
+
+
+
+
+nav {
+  z-index: 100; 
+  height: 73px; 
+  width: 100%;
+  position: fixed;
+}
+
+nav > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  background-color: aliceblue;
+}
+
+.menu_list_mobile{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#mobile_nav_menu {
+  overflow: hidden;
+  background:#4961e738;
+  position: relative;
+ 
+}
+
+#nav_menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  background:#4961e738;
+}
+
+
+#mobile_nav_menu{
+  display: none;
+}
+
+
+
+.menu_list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;    
+    padding-right: 15px;
+}
+
+
+
+.menu_list li  button {
+    list-style: none;
+    padding: 8px 24px;
+    font-family: "MagdaClean";
+    color: white;
+    text-decoration: none;
+    transition: border-color 1s ease;  
+
+    
+}
+
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.fancy_link {
+  text-decoration: none;
+  color: #ee6352;
+  position: relative;
+}
+
+.menu_list li button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms ease-in;
+}
+
+.menu_list li button:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+/* Top Menu End */

@@ -1,0 +1,34 @@
+.container-login {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 100;
+  border-radius: 15px;
+}
+
+.createEventPage {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+textarea {
+  resize: none;
+}
+
+header {
+  background-color: #9c27b0 !important;
+}

@@ -1,0 +1,23 @@
+.signin-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 275px);
+  }
+  
+  .signin-form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+    gap: 1em;
+    box-shadow: 0 0 5px rgb(89, 89, 89);
+  }
+  
+
+  .signin-form input {
+    margin-top: 15px;
+  }

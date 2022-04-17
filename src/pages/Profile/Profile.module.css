@@ -1,0 +1,30 @@
+.profile {
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.profile_container {
+    min-height: calc(100vh - 274px);
+    display: flex;
+}
+
+
+.center {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    gap: 25px;
+}
+
+
+.center div {
+    min-width: 345px;
+    max-width: 345px;
+
+}

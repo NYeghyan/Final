@@ -1,0 +1,56 @@
+.homeBanner {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.backImg {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.containerImg {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.bannerInfo {
+  display: flex;
+  flex-direction: column;
+  z-index: 11;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+}
+
+.bannerInfo h1 {
+  max-width: 800px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.bannerInfo h2 {
+  max-width: 600px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.divOpasyty {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100vh;
+}
+
